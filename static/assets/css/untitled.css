@@ -1,0 +1,25 @@
+body {
+  background-image: url("../../assets/img/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+}
+
+h1 {
+  position: absolute;
+}
+
+div {
+}
+
+input {
+  align-items: center;
+}
+
+display: flex; align-items: center; justify-content: center; .container {
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
