@@ -43,7 +43,7 @@ def horoscopo(request):
 
 		sign = False
 
-		return render(request, 'horoscopoapp\index.html', {sign:'sign'})
+		return render(request, 'horoscopoapp\index.html', None)
 
 
 	try:
