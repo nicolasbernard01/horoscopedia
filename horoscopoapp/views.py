@@ -41,7 +41,9 @@ def horoscopo(request):
 
 	else:
 
-		sign = 'Aries'
+		sign = False
+
+		return render(request, 'horoscopoapp/index.html', {'sign':sign})
 
 	try:
 
@@ -86,7 +88,7 @@ def horoscopo(request):
 
 		resp_humor = response['data']['translatedText']
 
-		return render(request, 'horoscopoapp\index.html', {'sign':sign, 'resp_signo':resp_signo, 'resp_humor':resp_humor,'numero':numero_suerte})
+		return render(request, 'horoscopoapp/index.html', {'sign':sign, 'resp_signo':resp_signo, 'resp_humor':resp_humor,'numero':numero_suerte})
 
 	
 	except KeyError or ValueError:
