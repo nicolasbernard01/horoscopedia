@@ -1,4 +1,4 @@
-# horoscopedia
+# Horoscopedia
 
 <b>Horoscopedia</b> es un proyecto realizado por mi, donde el objetico principal del mismo es obtener el signo zodiacal, el numero de la suerte, y el humor en tu dia desde un solo lugar.<br>
 
