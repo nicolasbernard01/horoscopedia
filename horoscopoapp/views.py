@@ -43,7 +43,7 @@ def horoscopo(request):
 
 		sign = False
 
-		return redirect('index')
+		return render(request, 'horoscopoapp\index.html', {sign:'sign'})
 
 
 	try:
