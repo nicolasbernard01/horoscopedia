@@ -41,10 +41,7 @@ def horoscopo(request):
 
 	else:
 
-		sign = False
-
-		return render(request, 'horoscopoapp\index.html', None)
-
+		sign = 'Aries'
 
 	try:
 
