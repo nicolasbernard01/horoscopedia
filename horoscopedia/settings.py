@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7s5rcecy6hljw%q)x=h^es+n4tpyuc-i1=7n^u8=4s+w1)q9h%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -74,11 +74,6 @@ TEMPLATES = [
     },
 ]
 
-SETTINGS_PATH = os.path.normpath(os.path.dirname(__file__))
-
-TEMPLATE_DIRS = (
-    os.path.join(SETTINGS_PATH, 'templates'),
-)
 
 WSGI_APPLICATION = 'horoscopedia.wsgi.application'
 
