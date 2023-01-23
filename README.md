@@ -4,4 +4,4 @@
 
 Para la realizacion del mismo se utilizaron dos API, una la encargada de darnos los resultados con relacion al signo preguntado, el problema que nos encontramos en esta es que los mismos son todos en ingles, por lo que se uso una segunda API que traduce los resultados del ingles al español.
 
-Para poder hacer uso de all webapp puedes hacerlo ingresando a: https://horoscopedia.onrender.com/
+Para poder hacer uso de la webapp puedes hacerlo ingresando a: https://horoscopedia.onrender.com/
